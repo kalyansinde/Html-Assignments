@@ -1,0 +1,105 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Assignment4</title>
+    <style>
+        #table_section,tr,td{
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding:10px;
+
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <hr>
+    <h1>Talk to Expert Registrsation Form</h1>
+    <hr>
+    <h2>Talk to Expert Registrsation Form</h2>
+
+    <form>
+        <table id="table_section">
+            <tr id="first_row">
+                <td><b>Enter Your First Name</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td><input type="text" name="First Name" placeholder="Enter Your First Name"></td>
+            </tr>
+            <br>
+            <tr id="second_row">
+                <td><b>Enter Your Last Name</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td><input type="text" name="Last Name" placeholder="Enter Your Last Name"></td>
+            </tr>    
+            <tr id="third_row">
+                <td><b>I'm pursuing</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td>
+                    <div>
+                        CSE<input type="radio" name="branch" value="CSE">
+                        ECE<input type="radio" name="branch" value="ECE">
+                        CIVIL<input type="radio" name="branch" value="CIVIL">
+                        MECH<input type="radio" name="branch" value="MECH">
+                        Other<input type="radio" name="branch" value="Other">
+                    </div>
+                </td>
+            </tr>
+            <tr id="fourth_row">
+                <td><b>I'm good AT:</td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td>
+                    <div>
+                        JAVA<input type="checkbox" name="skills" value="JAVA">
+                        PYTHON<input type="checkbox" name="skills" value="PYTHON">
+                        HTML<input type="checkbox" name="skills" value="HTML"> 
+                        JS<input type="checkbox" name="skills" value="JS">
+                        Other<input type="checkbox" name="skills" value="Other">
+                    </div>
+                </td>
+            </tr>
+            <tr id="fifth_row">
+                <td><b>Mobile Number</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td><input type="text" name="mobile number" placeholder="+91-xxxxxxxxxx"></td>
+            </tr>
+            <tr id="sixth_row">
+                <td><b>Graduation Year</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td>
+                    <div>
+                        <select name="Select year">
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </selct>
+                    </div>
+                </td>
+            </tr>
+            <tr id="seventh_row">
+                <td><b>Any Queries??</b></td>
+                <td width="20px"><b><center>:</center></b></td>
+                <td>
+                    <div>
+                        <textarea name="query" rows="5" cols="30" placeholder="Rows-4 Cols-20"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr id="eigth_row">
+                <td><input type="submit" placeholder="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

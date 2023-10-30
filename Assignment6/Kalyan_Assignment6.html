@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Class 6 Assignment</title>
+        <style>
+            /* Write your css from the next line*/
+            h1{
+                color: green;
+            }
+            #intro{
+                border: 1px solid black;
+            }
+            #intro span{
+                color: red;
+            }
+            #intro>p{
+                font-size: 40px;
+            }
+            #intro .important{
+                background-color: orange;
+            }
+            #intro>.important>span{
+                color: white;
+            }
+            #innerDiv{
+                border:1px solid black;
+                margin:10px;
+            }
+            #innerDiv>p{
+                border:1px solid blue;
+                margin :20px;
+                font-size: 25px;
+            }
+            .important>span{
+                color: red;
+            }
+            .important{
+                background-color: yellow;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <div id="intro">
+            <p>This is the <span>first</span> paragraph</p>
+            <p class="important">This is an <span>important</span> paragraph inside the intro Div</p>
+            <div id="innerDiv">
+                <p>This is paragraph inside inner div with 0px padding and 0px margin</p>
+            </div>
+        </div>
+        <p>This is a regular paragraph</p>
+        <p class="important">This is an <span>important</span> paragraph that is not in the intro Div</p>
+    </body>
+</html>
